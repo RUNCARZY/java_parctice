@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c50a0dc-8823-4c3f-9aaf-b764c7dc897a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day191211/Anonymous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day191211/InputIntAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day191211/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day191211/SacnnerMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day191211/ScannerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day191212/RandomDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/practice/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/practice/ImportSomething.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/practice/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/ady200105_2String/DemoString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/ady200105_2String/StringCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/ady200105_2String/StringGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/ady200105_2String/StringPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day200105_1ArrayList/ArrayListSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day200105_1ArrayList/ObjectArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day200105_1ArrayList/PackageClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day200105_1ArrayList/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day200105_1ArrayList/StandardClassStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day200105_1ArrayList/practice_arrayRandom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/practice/aa/GuLuGuLu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/practice/aa/cc/ArrayAsArgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/basic/practice/aa/cc/ArrayAsArgs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/day191212/GuessNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/basic/day191212/GuessNum.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,13 +56,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomDemo">
-    <configuration name="Anonymous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.day191211.Anonymous" />
+  <component name="RunManager" selected="Application.StringCompare">
+    <configuration name="DemoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.ady200105_2String.DemoString" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.day191211.*" />
+          <option name="PATTERN" value="basic.ady200105_2String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputIntAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.day191211.InputIntAdd" />
+    <configuration name="PackageClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.day200105_1ArrayList.PackageClass" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.day191211.*" />
+          <option name="PATTERN" value="basic.day200105_1ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.day191212.RandomDemo" />
+    <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.ady200105_2String.StringCompare" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.day191212.*" />
+          <option name="PATTERN" value="basic.ady200105_2String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SacnnerMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.day191211.SacnnerMax" />
+    <configuration name="StringPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.ady200105_2String.StringPool" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.day191211.*" />
+          <option name="PATTERN" value="basic.ady200105_2String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.day191211.ScannerDemo" />
+    <configuration name="practice_arrayRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.day200105_1ArrayList.practice_arrayRandom" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.day191211.*" />
+          <option name="PATTERN" value="basic.day200105_1ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomDemo" />
-        <item itemvalue="Application.Anonymous" />
-        <item itemvalue="Application.SacnnerMax" />
-        <item itemvalue="Application.InputIntAdd" />
-        <item itemvalue="Application.ScannerDemo" />
+        <item itemvalue="Application.StringCompare" />
+        <item itemvalue="Application.StringPool" />
+        <item itemvalue="Application.DemoString" />
+        <item itemvalue="Application.practice_arrayRandom" />
+        <item itemvalue="Application.PackageClass" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +157,7 @@
       <workItem from="1576074346847" duration="4826000" />
       <workItem from="1576160963457" duration="2894000" />
       <workItem from="1576332005625" duration="83000" />
+      <workItem from="1578232280425" duration="10355000" />
     </task>
     <servers />
   </component>

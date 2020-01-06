@@ -13,6 +13,7 @@ public String():创建空字符串
 public String(char[] array):根据字符数组的内容，来创建对应的字符串
 public String(byte[] array):根据字节数组的内容，来创建对应的字符串
 1种直接创建：
+用双引号""直接创建
 
  */
 public class DemoString {

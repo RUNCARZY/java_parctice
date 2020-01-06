@@ -10,14 +10,14 @@ import java.util.ArrayList;
 public class practice_arrayRandom {
     public static void main(String[] args) {
         // 练习1：
-//        new practice1().visitList();
+        new practice1().visitList();
 
         // 练习2：
-//        ArrayList<String> list = new ArrayList<>();
-//        list.add("ming");
-//        list.add("bai");
-//        list.add("ma");
-//        new practice2().print(list);
+        ArrayList<String> list = new ArrayList<>();
+        list.add("ming");
+        list.add("bai");
+        list.add("ma");
+        new practice2().print(list);
 
         // 练习3：
         System.out.println(new practice3().getEvenList());

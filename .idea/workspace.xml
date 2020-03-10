@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c50a0dc-8823-4c3f-9aaf-b764c7dc897a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/day200106/StaticKeyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/Implement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/ImplementB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/InterfacaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/InterfacePrivate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/InterfaceStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/InterfaceStaticImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/myInterfaceDefault.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/ady200105_2String/DemoString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/ady200105_2String/DemoString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/ady200105_2String/StringGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/ady200105_2String/StringGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/day200105_1ArrayList/practice_arrayRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/day200105_1ArrayList/practice_arrayRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/day200106/SuperMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/basic/day200106/SuperMan.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,6 +42,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basic.day20200310" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -49,13 +59,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticKeyWord">
-    <configuration name="DemoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.ady200105_2String.DemoString" />
+  <component name="RunManager" selected="Application.InterfacaMain">
+    <configuration name="AbstractClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.day20200304.AbstractClass" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.ady200105_2String.*" />
+          <option name="PATTERN" value="basic.day20200304.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticKeyWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.day200106.StaticKeyWord" />
+    <configuration name="ExtendConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.day20200227.ExtendConstructor" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.day200106.*" />
+          <option name="PATTERN" value="basic.day20200227.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.ady200105_2String.StringCompare" />
+    <configuration name="ExtendsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.day20200115.ExtendsDemo" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.ady200105_2String.*" />
+          <option name="PATTERN" value="basic.day20200115.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.ady200105_2String.StringGet" />
+    <configuration name="InterfacaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.day20200310.InterfacaMain" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.ady200105_2String.*" />
+          <option name="PATTERN" value="basic.day20200310.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.ady200105_2String.StringPool" />
+    <configuration name="RedPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.day20200304.RedPackage" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.ady200105_2String.*" />
+          <option name="PATTERN" value="basic.day20200304.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticKeyWord" />
-        <item itemvalue="Application.StringGet" />
-        <item itemvalue="Application.StringCompare" />
-        <item itemvalue="Application.StringPool" />
-        <item itemvalue="Application.DemoString" />
+        <item itemvalue="Application.InterfacaMain" />
+        <item itemvalue="Application.RedPackage" />
+        <item itemvalue="Application.AbstractClass" />
+        <item itemvalue="Application.ExtendConstructor" />
+        <item itemvalue="Application.ExtendsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +161,14 @@
       <workItem from="1576160963457" duration="2894000" />
       <workItem from="1576332005625" duration="83000" />
       <workItem from="1578232280425" duration="10578000" />
-      <workItem from="1578317572246" duration="4912000" />
+      <workItem from="1578317572246" duration="5098000" />
+      <workItem from="1579089818915" duration="4340000" />
+      <workItem from="1579358128970" duration="63000" />
+      <workItem from="1579358217669" duration="3000" />
+      <workItem from="1579358295027" duration="5000" />
+      <workItem from="1579362376866" duration="1040000" />
+      <workItem from="1582684905979" duration="1461000" />
+      <workItem from="1583807216646" duration="3619000" />
     </task>
     <servers />
   </component>
@@ -170,5 +187,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basic/day20200227/ExtendConstructor.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basic/day20200304/RedPackage.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

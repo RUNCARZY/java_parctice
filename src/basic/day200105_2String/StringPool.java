@@ -1,4 +1,4 @@
-package basic.ady200105_2String;
+package basic.day200105_2String;
 /*
 字符串常量池：使用双引号直接创建的字符串对象，就在字符串常量池中
 从jdk1.7开始，字符串常量池放在堆当中

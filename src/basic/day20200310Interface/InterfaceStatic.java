@@ -1,4 +1,4 @@
-package basic.day20200310;
+package basic.day20200310Interface;
 /*
 从java8开始，接口中允许定义静态方法
 public static 返回类型 方法名(参数列表) {方法体}

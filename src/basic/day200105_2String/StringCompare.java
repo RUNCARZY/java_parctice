@@ -1,4 +1,4 @@
-package basic.ady200105_2String;
+package basic.day200105_2String;
 /*
 1、== 是进行对象的地址值比较，可以使用equals方法对内容进行比较
 2、equals方法具有对称性,a.equals(b)恒等于b.equals(a)

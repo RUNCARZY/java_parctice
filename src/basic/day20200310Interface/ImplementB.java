@@ -1,4 +1,4 @@
-package basic.day20200310;
+package basic.day20200310Interface;
 
 public class ImplementB implements myInterfaceDefault{
     @Override

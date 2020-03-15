@@ -1,4 +1,4 @@
-package basic.day20200310;
+package basic.day20200310Interface;
 /*
 接口的私有方法，可以被接口中的默认方法/静态方法进行调用，解决代码重复性问题
 从java 9 开始，类中允许定义私有方法

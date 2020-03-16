@@ -1,4 +1,4 @@
-package basic.ady200105_2String;
+package basic.day200105_2String;
 
 
 /*

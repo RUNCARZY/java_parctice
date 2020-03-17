@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c50a0dc-8823-4c3f-9aaf-b764c7dc897a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/Implement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/ImplementB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/InterfacaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/InterfacePrivate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/InterfaceStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/InterfaceStaticImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/day20200310/myInterfaceDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day20200317/AssertDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/basic/day200106/SuperMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/basic/day200106/SuperMan.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterfacaMain">
+  <component name="RunManager" selected="Application.AssertDemo">
     <configuration name="AbstractClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic.day20200304.AbstractClass" />
       <module name="practice" />
@@ -73,12 +68,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.day20200227.ExtendConstructor" />
-      <module name="practice" />
+    <configuration name="AssertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day20200317.AssertDemo" />
+      <module name="java_parctice" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.day20200227.*" />
+          <option name="PATTERN" value="day20200317.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.day20200115.ExtendsDemo" />
+    <configuration name="ExtendConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.day20200227.ExtendConstructor" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.day20200115.*" />
+          <option name="PATTERN" value="basic.day20200227.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,13 +121,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AbstractClass" />
+      <item itemvalue="Application.AssertDemo" />
+      <item itemvalue="Application.ExtendConstructor" />
+      <item itemvalue="Application.InterfacaMain" />
+      <item itemvalue="Application.RedPackage" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AssertDemo" />
         <item itemvalue="Application.InterfacaMain" />
         <item itemvalue="Application.RedPackage" />
         <item itemvalue="Application.AbstractClass" />
         <item itemvalue="Application.ExtendConstructor" />
-        <item itemvalue="Application.ExtendsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +172,8 @@
       <workItem from="1579362376866" duration="1040000" />
       <workItem from="1582684905979" duration="1461000" />
       <workItem from="1583807216646" duration="3619000" />
+      <workItem from="1584322147529" duration="779000" />
+      <workItem from="1584409547989" duration="2238000" />
     </task>
     <servers />
   </component>

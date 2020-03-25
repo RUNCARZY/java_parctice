@@ -1,4 +1,4 @@
-package day20200317;
+package basic.day20200317;
 /*
 assert用于开发测试阶段。
 使用-ea, 不然系统会默认跳过断言

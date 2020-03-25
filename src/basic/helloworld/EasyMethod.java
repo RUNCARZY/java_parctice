@@ -1,4 +1,4 @@
-package basic;
+package basic.helloworld;
 
 public class EasyMethod {
     public static int dad(){

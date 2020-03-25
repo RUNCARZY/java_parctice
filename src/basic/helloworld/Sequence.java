@@ -1,4 +1,4 @@
-package basic;
+package basic.helloworld;
 
 public class Sequence {
     public static void main(String[] args) {

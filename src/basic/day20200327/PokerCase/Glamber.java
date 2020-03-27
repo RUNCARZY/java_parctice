@@ -6,6 +6,8 @@ public class Glamber {
     public ArrayList<Card> handCards = new ArrayList<>();
 
     public void addHandCard(Card card) {
-        this.handCards.add(card);
+        if (card!=null) {
+            this.handCards.add(card);
+        }
     }
 }

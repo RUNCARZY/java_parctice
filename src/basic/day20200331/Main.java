@@ -7,7 +7,6 @@ public class Main {
         ArrayList<Node> nodes = new ArrayList<>();
         int[] nums = {50, 32, 8, 2345, 243, 5, 65, 345};
         SearchTree tree = new SearchTree(new Node(60));
-        TreeTraverse tra = new TreeTraverse();
         for (int num : nums) {
             nodes.add(new Node(num));
         }
@@ -17,6 +16,6 @@ public class Main {
         System.out.println(TreeTraverse.preTra(tree.root));
         System.out.println(TreeTraverse.midTra(tree.root));
         System.out.println(TreeTraverse.lastTra(tree.root));
-
     }
 }
+

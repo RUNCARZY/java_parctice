@@ -1,4 +1,4 @@
-package basic.day20200331;
+package basic.day20200331.tree;
 
 public class Node {
     Node left;

@@ -20,5 +20,5 @@ package basic.day20200330.dataStructure;
 任何一个节点到其每一个叶子节点的所有路径上黑色节点数相同
 
  */
-public class StackDemo {
+public class DataStructure {
 }

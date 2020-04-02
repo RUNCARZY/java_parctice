@@ -19,7 +19,9 @@ try {...}
 catch (Exception1 e) {...}
 catch (Exception2 e) {...}
 finally {...}
-注意：finally语句块中的return值会覆盖try语句块中的return值
+注意：
+1、finally语句块中的return值会覆盖try语句块中的return值
+2、finally中throw的异常会覆盖catch语句块中throw的异常
 
 捕获异常后的常见处理：
 获取、记录异常信息

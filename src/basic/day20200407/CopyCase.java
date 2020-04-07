@@ -13,7 +13,7 @@ public class CopyCase {
 
     }
     public static void copy(String[] args){
-        byte[] buffer = new byte[10]; // 10字节的缓冲区
+        byte[] buffer = new byte[100]; // 设置缓冲区大小
         String origin = args[0];
         String target = args[1];
         try(InputStream input = new FileInputStream(origin)) {

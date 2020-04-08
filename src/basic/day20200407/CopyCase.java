@@ -12,7 +12,7 @@ public class CopyCase {
 
 
     }
-    public static void copy(String[] args){
+    public static boolean copy(String[] args){
         byte[] buffer = new byte[100]; // 设置缓冲区大小
         String origin = args[0];
         String target = args[1];
@@ -23,11 +23,13 @@ public class CopyCase {
                     System.out.println("第" + i + "次读写");
                 }
                 output.flush();
+                return true;
             }
         }
         catch (IOException e) {
             System.out.println("参数错误!");
             e.printStackTrace();
+            return false;
         }
     }
 }

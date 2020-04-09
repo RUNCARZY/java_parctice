@@ -10,9 +10,9 @@ class CopyCaseTest {
     @Disabled
     @Test
     void copy() {
-        assertTrue(CopyCase.copy(new String[]{"D:\\JavaProject\\java_practice\\src\\basic\\day20200407\\test.txt",
-                "D:\\JavaProject\\java_practice\\src\\basic\\day20200407\\test2.txt"}));
-        assertFalse(CopyCase.copy(new String[]{"D:\\JavaProject\\java_practice\\src\\basic\\day20200407\\test3.txt",
-                "D:\\JavaProject\\java_practice\\src\\basic\\day20200407\\test2.txt"}));
+        assertTrue(CopyCase.copy(new String[]{"F:\\java_project\\practice\\src\\basic\\day20200407\\test.txt",
+                "F:\\java_project\\practice\\src\\basic\\day20200407\\test1.txt"}));
+        assertFalse(CopyCase.copy(new String[]{"F:\\java_project\\practice\\src\\basic\\day20200407\\test3.txt",
+                "F:\\java_project\\practice\\src\\basic\\day20200407\\test.txt"}));
     }
 }

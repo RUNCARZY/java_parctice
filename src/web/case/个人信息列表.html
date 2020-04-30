@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息表</title>
+    <style>
+        div{
+            width: 600px;
+            margin: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        .list th, .list td{
+            /*border: 5px solid;*/
+            width: 120px;
+            text-align: center;
+        }
+        input {
+            width: 80px;
+        }
+
+        #notice {
+            color: red;
+            font-size: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr onkeydown="checkInput()">
+                <td>编号：</td><td><input type="text" id="add_num"></td>
+                <td>姓名：</td><td><input type="text" id="add_name"></td>
+                <td>年龄：</td><td><input type="text" id="add_age"></td>
+                <td><input type="button" value="提交" id="add_btn"></td>
+            </tr>
+            <tr id="notice">
+                <td></td><td id="notice_num"></td>
+                <td></td><td id="notice_name"></td>
+                <td></td><td id="notice_age"></td>
+                <td></td>
+            </tr>
+        </table>
+        <table class="list" id="member_list">
+            <tr>
+                <th>选择</th>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>操作</th>
+            </tr>
+            <tr onmousemove="mouseOver(this)" onmouseout="mouseOut(this)">
+                <td><input type="checkbox" class="checkbox" id="select_1"></td>
+                <td>1</td>
+                <td>小明</td>
+                <td>24</td>
+                <td><a href="javascropt:void(0)" class="del" onclick="remove(this)">删除</a></td>
+            </tr>
+            <tr onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                <td><input type="checkbox" class="checkbox" id="select_2"></td>
+                <td>2</td>
+                <td>秋白</td>
+                <td>25</td>
+                <td><a href="javascropt:void(0)" class="del" onclick="remove(this)">删除</a></td>
+            </tr>
+        </table>
+        <input type="button" value="全选" id="select_all" onclick="selectAll();">
+        <input type="button" value="全不选" id="select_none" onclick="selectNone();">
+        <input type="button" value="反选" id="select_reverse" onclick="selectReverse();">
+
+        <script src="add.js" type="text/javascript"></script>
+        <p>实现功能:</p>
+        <ol>
+            <li>添加记录</li>
+            <li>删除记录</li>
+            <li>全局选中控制</li>
+            <li>表格移入样式控制</li>
+            <li>输入检查</li>
+        </ol>
+    </div>
+
+</body>
+</html>
